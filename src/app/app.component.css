@@ -1,0 +1,16 @@
+body {
+  height: 100vh;
+}
+
+#container {
+  margin-inline: auto;
+  max-width: 90%;
+}
+
+h1 {
+  text-align: center;
+}
+
+body #btnClick {
+  text-align: center;
+}

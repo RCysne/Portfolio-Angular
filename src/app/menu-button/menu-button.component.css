@@ -1,0 +1,25 @@
+button {
+  border: none;
+  margin: 0 2rem;
+}
+
+button a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-family: 'Glory', sans-serif;
+  font-size: 1rem;
+}
+
+#btn-contact {
+  padding: 8px;
+  background-color: #000;
+  width: 8rem;
+  heigth: 5rem;
+  border-radius: 15px;
+}
+
+#btn-contact a {
+  color: #fff;
+}
+

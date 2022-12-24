@@ -1,0 +1,21 @@
+p {
+  text-align: center;
+}
+
+p strong {
+  margin-left: 0.5em;
+}
+
+button {
+  border: none;
+  width: 2rem;
+  height: 1.5rem;
+}
+
+#btnL {
+  margin-right: 2rem;
+}
+
+#btnR {
+  margin-left: 2rem;
+}
