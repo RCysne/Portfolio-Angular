@@ -5,12 +5,73 @@ body {
 #container {
   margin-inline: auto;
   max-width: 90%;
+  font-family: 'Glory', sans-serif;
 }
 
 h1 {
-  text-align: center;
+  text-align: left;
 }
 
 body #btnClick {
   text-align: center;
 }
+
+section {
+  display: flex;
+}
+
+#section-main {
+  width: 45%;
+}
+
+#text-intro {
+  margin-top: 10rem;
+}
+
+#text-intro h1 {
+  font-size: 4rem;
+}
+
+#text-intro p {
+  margin-top: 1rem;
+}
+
+#phone-contact {
+  display: flex;
+}
+
+#email-button {
+  width: 12rem;
+}
+
+#image-social {
+  width: 50%;
+  display: flex;
+  justify-content: right;
+}
+
+#profile-image {
+  width: 21rem;
+  margin-top: 5.5rem;
+  border-radius: 100px 30px
+}
+
+#phone-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#phone-button p {
+  font-weight: 600;
+}
+
+@media only screen 
+  and (min-width: 999px) 
+  and (max-width: 1000px) { 
+    
+    #container {
+      max-width: 90%;
+    }
+} 
+

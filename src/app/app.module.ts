@@ -7,6 +7,7 @@ import { CountComponent } from './count/count.component';
 import { BookListComponent } from './book-list/book-list.component';
 import { NavButtonComponent } from './nav-button/nav-button.component';
 import { MenuButtonComponent } from './menu-button/menu-button.component';
+import { SocialIconsComponent } from './social-icons/social-icons.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { MenuButtonComponent } from './menu-button/menu-button.component';
     CountComponent,
     BookListComponent,
     NavButtonComponent,
-    MenuButtonComponent
+    MenuButtonComponent,
+    SocialIconsComponent
   ],
   imports: [
     BrowserModule

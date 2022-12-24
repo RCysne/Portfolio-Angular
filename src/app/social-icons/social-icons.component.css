@@ -1,0 +1,14 @@
+#icons-social {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+
+#icons-social a {
+  margin-top: 5rem;
+  margin-left: 1rem
+}
+
+#icons-social img {
+  width: 30px
+}

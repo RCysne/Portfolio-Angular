@@ -1,4 +1,38 @@
 <main id="container">
-  <app-nav-button>
-  </app-nav-button>
+  <nav>
+    <app-nav-button> </app-nav-button>
+  </nav>
+  <section>
+    <div id="section-main">
+      <div id="text-intro">
+        <h1>
+          Dev <br />
+          Frontend
+        </h1>
+        <p>
+          Desenvolvedor Frontend que gosta de utilizar as tecnologias HTML, CSS,
+          Javascript, Bootstrap, DaisyUI, Tailwind, MaterialUI, ReactJs e
+          Angular.
+        </p>
+      </div>
+
+      <div id="phone-contact">
+        <img id="email-button" [src]="emailButton" alt="" />
+
+        <div id="phone-button">
+          <img id="icon-phone-button" [src]="phoneButton" alt="" />
+          <p>+55 85 99276-5391</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="image-social">
+      <div>
+        <img id="profile-image" [src]="imgRonaldo" alt="" />
+      </div>
+      <div>
+        <app-social-icons></app-social-icons>
+      </div>
+    </div>
+  </section>
 </main>

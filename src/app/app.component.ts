@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portfolio';
+
+  public imgRonaldo = '../assets/profileImage.jpg';
+  public emailButton = '../assets/emailButton.svg';
+  public phoneButton = '../assets/icon-phone.svg';
 }
