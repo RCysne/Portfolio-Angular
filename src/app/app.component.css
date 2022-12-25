@@ -67,11 +67,39 @@ section {
 }
 
 @media only screen 
-  and (min-width: 999px) 
-  and (max-width: 1000px) { 
+  and (min-width: 1000px) 
+  { 
     
     #container {
-      max-width: 90%;
+      max-width: 1000px;
     }
 } 
+
+@media only screen and (max-width:970px) {
+  
+  #text-intro {
+    margin-top: 5rem;
+  }
+  
+  #phone-contact {
+    margin-top: 1rem;
+    flex-direction: column;
+  }
+
+  #phone-button {
+    justify-content: left;
+  }
+
+  @media only screen and (max-width: 841px) {
+    section {
+      flex-direction: column;
+    }
+
+    #text-intro p {
+      width: 50%;
+    }
+  }
+
+}
+
 
