@@ -51,7 +51,7 @@ section {
 }
 
 #profile-image {
-  width: 21rem;
+  width: 100%;
   margin-top: 5.5rem;
   border-radius: 100px 30px
 }
@@ -89,17 +89,49 @@ section {
   #phone-button {
     justify-content: left;
   }
+  }
 
   @media only screen and (max-width: 841px) {
+
+
+    nav {
+      opacity: 0;
+    }
+
+    html {
+      width: 100%;
+      margin-inlines: auto;
+    }
+
     section {
+      flex-direction: column;
+    }
+    
+    #section-main {
+      width: 100%;
       flex-direction: column;
     }
 
     #text-intro p {
-      width: 50%;
+      width: 100%;
     }
+
+    #phone-contact {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    #image-social {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
   }
 
-}
+
 
 
