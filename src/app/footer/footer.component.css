@@ -1,0 +1,12 @@
+#footer {
+  width: 100vw;
+  heigth: 10vh;
+  background-color: #000;
+  potition: fixed;
+  bottom: 0;
+  text-align: center;
+}
+
+#footer p {
+  color: #fff;
+}

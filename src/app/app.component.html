@@ -3,7 +3,10 @@
     <app-nav-button> </app-nav-button>
   </nav>
   <section>
+
+    <!-- Container -->
     <div id="section-main">
+
       <!-- Presentation -->
 
       <div id="text-intro">
@@ -21,12 +24,12 @@
       <!-- Contacts Email and Phone -->
 
       <div id="phone-contact">
-        <img id="email-button" [src]="emailButton" alt="" />
+        <a href="mailto:ronaldocysne@gmail.com">
+          <img id="email-button" [src]="emailButton" alt="" />
+        </a>
 
         <div id="phone-button">
-          <a href=""
-            ><img id="icon-phone-button" [src]="phoneButton" alt=""
-          /></a>
+          <img id="icon-phone-button" [src]="phoneButton" alt=""/>
           <p>+55 85 99276-5391</p>
         </div>
       </div>
@@ -44,3 +47,4 @@
     </div>
   </section>
 </main>
+<app-footer></app-footer>

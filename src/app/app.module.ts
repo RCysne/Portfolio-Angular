@@ -8,6 +8,8 @@ import { BookListComponent } from './book-list/book-list.component';
 import { NavButtonComponent } from './nav-button/nav-button.component';
 import { MenuButtonComponent } from './menu-button/menu-button.component';
 import { SocialIconsComponent } from './social-icons/social-icons.component';
+import { MenuHamburgerComponent } from './menu-hamburger/menu-hamburger.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { SocialIconsComponent } from './social-icons/social-icons.component';
     BookListComponent,
     NavButtonComponent,
     MenuButtonComponent,
-    SocialIconsComponent
+    SocialIconsComponent,
+    MenuHamburgerComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule

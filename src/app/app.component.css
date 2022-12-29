@@ -1,6 +1,4 @@
-body {
-  height: 100vh;
-}
+/* ----------- Container ------------------- */
 
 #container {
   margin-inline: auto;
@@ -8,66 +6,82 @@ body {
   font-family: 'Glory', sans-serif;
 }
 
-h1 {
-  text-align: left;
-}
 
 body #btnClick {
   text-align: center;
 }
 
+/*  Section - Main text + Photo an social icons ------------ */
+
 section {
+  margin-top: 10%;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+/*  Container ----------------------------- */
+
 #section-main {
-  width: 45%;
+  width: 100%;
 }
+
+/* Title and presentation ------------------- */
 
 #text-intro {
   margin-top: 10rem;
+  margin-bottom: 2rem;
+  width: 50%;
 }
 
 #text-intro h1 {
   font-size: 4rem;
+  text-align: left;
 }
 
 #text-intro p {
   margin-top: 1rem;
+  width: 500px;
 }
+
+
+/*  Contacts - email and phone -------------------- */
 
 #phone-contact {
   display: flex;
 }
 
-#email-button {
-  width: 12rem;
-}
-
-#image-social {
-  width: 50%;
-  display: flex;
-  justify-content: right;
-}
-
-#profile-image {
-  width: 100%;
-  margin-top: 5.5rem;
-  border-radius: 100px 30px
-}
-
 #phone-button {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 #phone-button p {
   font-weight: 600;
 }
 
+/* Photo and icons ---------------------- */
+
+#image-social {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: right;
+}
+#profile-image {
+  width: 100%;
+  height: 100%;
+  margin-top: 1rem;
+  border-radius: 100px 30px;
+  margin-right: 20rem;
+}
+
+
+/*  RESPONSIVIDADE -------------------- */
+
 @media only screen 
   and (min-width: 1000px) 
+  /* Valor mínimo da tela (de 1000px para cima) */
   { 
     
     #container {
@@ -75,7 +89,9 @@ section {
     }
 } 
 
-@media only screen and (max-width:970px) {
+@media only screen and (max-width:970px) 
+/* Valor máximo da tela (de 970px para baixo) */
+{
   
   #text-intro {
     margin-top: 5rem;
@@ -91,7 +107,9 @@ section {
   }
   }
 
-  @media only screen and (max-width: 841px) {
+  @media only screen and (max-width: 841px) 
+  /* Valor máximo da tela (de 841px para baixo) */
+  {
 
 
     nav {
